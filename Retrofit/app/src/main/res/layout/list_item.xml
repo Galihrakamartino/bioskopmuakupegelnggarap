@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvtayang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Tayang"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvIdTiket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Tiket"
+        android:layout_below="@id/tvtayang"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tvIdFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Film"
+        android:textSize="15sp"
+        android:layout_below="@id/tvIdTiket"/>
+
+    <TextView
+        android:id="@+id/tvIdStd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="id Studio"
+        android:textSize="15sp"
+        android:layout_below="@id/tvIdFilm"/>
+
+    <TextView
+        android:id="@+id/tvharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:textSize="15sp"
+        android:layout_below="@id/tvIdStudio"/>
+
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+</LinearLayout>
